@@ -5,14 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Quiz</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="title"></section>
+    <section class="title">
+        <h1 class="title-h1">Programming Quiz<i class="fas fa-coffee"></i></h1>
+        <p class="title-p">Test your knowledge</p>
+    </section>
     <main class="content">
+        <p class="number-of-questions"><i class="far fa-question-circle"></i> 5 Questions</p>
         <div class="quiz">
-
+            <header class="quiz-header">
+                <p class="question-number"><i class="far fa-dot-circle"></i> Question 1</p>
+                <p class="timer"><i class="far fa-clock"></i> 30 seconds</p>
+            </header>
+            <div class="question-area">
+                <p class="question">1. What does JavaScript return to you if you try to access a object's property that doesn't exist?</p>
+            </div>
+            <hr class="quiz-line">
+            <p class="division-text">Answer choices</p>
+            <div class="choice-area">
+                <div class="choice-column1">
+                    <p class="first-choice"><button class="choice"></button>null</p>
+                    <p class="second-choice"><button class="choice"></button>'oopsies!'</p>
+                </div>
+                <div class="choice-column2">
+                    <p class="third-choice"><button class="choice"></button>undefined</p>
+                    <p class="fourth-choice"><button class="choice"></button>0</p>
+                </div>
+            </div>
+            <button class="next-button"><i class="far fa-arrow-alt-circle-right"></i> Next</button>
         </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </body>
 </html>

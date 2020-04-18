@@ -3,5 +3,140 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(241, 241, 241);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-h1 {
+    position: relative;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.fa-coffee {
+    width: 35px;
+    height: 30px;
+    margin-left: 15px;
+    color: rgb(129, 102, 202);
+}
+
+.title-p {
+    font-size: 20px;
+}
+
+.fa-question-circle {
+    color: grey;
+}
+
+.number-of-questions {
+    font-size: 17px;
+}
+
+.quiz {
+    position: relative;
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+}
+
+.quiz-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-dot-circle {
+    color: rgb(197, 0, 0);
+}
+
+.quiz-header>p {
+    margin: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 3px 5px;
+    padding: 5px 10px;
+}
+
+.question-area {
+    position: relative;
+    top: 25px;
+    height: 200px;
+}
+
+.question {
+    font-size: 18px;
+    margin: 11px;
+    color: rgb(29, 0, 110);
+}
+
+.quiz-line {
+    margin: 11px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.division-text {
+    margin-left: 30px;
+    color: rgb(71, 66, 82);
+}
+
+.choice-area {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.choice-area>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.choice-area>p {
+    color: rgb(29, 0, 110);
+}
+
+.choice-column2 {
+    position: relative;
+    left: 200px;
+}
+
+.choice {
+    position: relative;
+    padding: 10px;
+    border: 0;
+    border-radius: 50%;
+    margin: 11px;
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+    top: -5px;
+}
+
+.next-button {
+    position: relative;
+    top: 15px;
+    left: 650px;
+    cursor: pointer;
+    padding: 10px 50px 10px 10px;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(65, 199, 125);
+    box-shadow: 0px 4px 0px 0px rgb(51, 155, 98);
+}
+
+.next-button:hover {
+    background-color: rgb(83, 209, 140);
+}
+
+.fa-arrow-alt-circle-right {
+    margin-right: 5px;
 }
