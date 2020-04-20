@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Quiz</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <section class="title">
+    <header class="title">
         <h1 class="title-h1">Programming Quiz<i class="fas fa-coffee"></i></h1>
         <p class="title-p">Test your knowledge</p>
-    </section>
+    </header>
     <main class="content">
         <p class="number-of-questions"><i class="far fa-question-circle"></i> 5 Questions</p>
         <div class="quiz">
@@ -24,7 +26,7 @@
             </div>
             <header quiz-item class="quiz-header">
                 <p class="question-number"><i class="far fa-dot-circle"></i> Question 1</p>
-                <p class="timer"><i class="far fa-clock"></i> 30 seconds</p>
+                <p class="timer"> 30 seconds</p>
             </header>
             <div quiz-item class="question-area">
                 <p class="question">1. What does JavaScript return to you if you try to access a object's property that
@@ -47,9 +49,9 @@
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <script src="js/jquery-3.5.0.min.js"></script>
-    <script src="js/quiz.js"></script>
-    <script>
-    </script>
+    <script src="js/customJqueryFunctions.js"></script>
+    <script src="js/startQuiz.js"></script>
+    <script src="js/nextQuestion.js"></script>
 </body>
 
 </html>

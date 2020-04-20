@@ -1,41 +1,48 @@
+/* =global */
 * {
     font-family: 'Solway', serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
 }
 
 button {
     outline: none;
 }
+/*—————*/
 
+
+/* =header */
 .title {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .title-h1 {
-    position: relative;
     font-size: 35px;
     margin-bottom: 0;
+    position: relative;
 }
 
 .fa-coffee {
-    width: 35px;
+    color: rgb(124, 82, 202);
     height: 30px;
     margin-left: 15px;
-    color: rgb(124, 82, 202);
+    width: 35px;
 }
 
 .title-p {
     font-size: 20px;
 }
+/*—————*/
 
+
+/* =main */
 .fa-question-circle {
     color: grey;
 }
@@ -45,44 +52,44 @@ button {
 }
 
 .quiz {
-    position: relative;
-    width: 800px;
-    height: 550px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    height: 550px;
+    position: relative;
+    width: 800px;
 }
 
 .initial-instructions {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
+    align-items: center;
     background-color: white;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
+    position: absolute;
+    width: 100%;
     z-index: 1;
 }
 
 .instruction {
-    position: relative;
     font-size: 25px;
+    position: relative;
     top: 100px;
 }
 
 .start {
-    position: relative;
-    top: 150px;
-    cursor: pointer;
-    padding: 10px 75px 10px 15px;
-    color: white;
-    font-size: 18px;
-    outline: none;
+    background-color: rgb(65, 199, 125);
     border: 0;
     border-radius: 7px;
-    background-color: rgb(65, 199, 125);
     box-shadow: 0px 4px 0px 0px rgb(51, 155, 98);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 75px 10px 15px;
+    position: relative;
+    outline: none;
+    top: 150px;
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -96,8 +103,8 @@ button {
 }
 
 .notice {
-    position: relative;
     font-size: 20px;
+    position: relative;
     top: 225px;
 }
 
@@ -112,35 +119,35 @@ button {
 }
 
 .quiz-header>p {
-    margin: 10px;
     border: 1px solid rgb(235, 235, 235);
     border-radius: 3px 5px;
+    margin: 10px;
     padding: 5px 10px;
 }
 
 .question-area {
     display: none;
+    height: 200px;
     position: relative;
     top: 25px;
-    height: 200px;
 }
 
 .question {
+    color: rgb(29, 0, 110);
     font-size: 18px;
     margin: 11px;
-    color: rgb(29, 0, 110);
 }
 
 .quiz-line {
+    border: 1px solid rgb(219, 219, 219);
     display: none;
     margin: 11px;
-    border: 1px solid rgb(219, 219, 219);
 }
 
 .division-text {
+    color: rgb(71, 66, 82);
     display: none;
     margin-left: 30px;
-    color: rgb(71, 66, 82);
 }
 
 .choice-area {
@@ -159,36 +166,36 @@ button {
 }
 
 .choice-column2 {
-    position: relative;
     left: 200px;
+    position: relative;
 }
 
 .choice {
-    position: relative;
-    padding: 10px;
+    background-color: rgb(196, 196, 196);
     border: 0;
     border-radius: 50%;
-    margin: 11px;
-    background-color: rgb(196, 196, 196);
     cursor: pointer;
+    margin: 11px;
+    padding: 10px;
+    position: relative;
     top: -5px;
 }
 
 .next-button {
-    display: none;
-    position: relative;
-    top: 15px;
-    left: 650px;
-    cursor: pointer;
-    padding: 10px 50px 10px 10px;
-    color: white;
-    font-size: 18px;
+    background-color: rgb(124, 82, 202);
     border: 0;
     border-radius: 7px;
-    background-color: rgb(124, 82, 202);
     box-shadow: 0px 4px 0px 0px rgb(96, 59, 163);
-    transition-property: background-color;
+    color: white;
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+    left: 650px;
+    padding: 10px 50px 10px 10px;
+    position: relative;
     transition-duration: 0.2s;
+    transition-property: background-color;
+    top: 15px;
 }
 
 .next-button:hover {
@@ -198,3 +205,4 @@ button {
 .fa-arrow-alt-circle-right {
     margin-right: 5px;
 }
+/*—————*/
