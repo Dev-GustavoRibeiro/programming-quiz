@@ -5,4 +5,5 @@ $.fn.timer = function () {
         if (timerSeconds < 0)
             clearInterval(timer);
     }, 1000);
+    return timer;
 }
