@@ -55,7 +55,7 @@ button {
     background-color: white;
     border-radius: 4px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
-    height: 550px;
+    height: 560px;
     position: relative;
     width: 800px;
 }
@@ -121,7 +121,7 @@ button {
 .quiz-header>p {
     border: 1px solid rgb(235, 235, 235);
     border-radius: 3px 5px;
-    margin: 10px;
+    margin: 15px;
     padding: 5px 10px;
 }
 
@@ -135,7 +135,7 @@ button {
 .question {
     color: rgb(29, 0, 110);
     font-size: 18px;
-    margin: 11px;
+    margin: 16px;
 }
 
 .quiz-line {
@@ -175,7 +175,7 @@ button {
     border: 0;
     border-radius: 50%;
     cursor: pointer;
-    margin: 11px;
+    margin: 16px 10px 16px 16px;
     padding: 10px;
     position: relative;
     top: -5px;
@@ -195,7 +195,6 @@ button {
     position: relative;
     transition-duration: 0.2s;
     transition-property: background-color;
-    top: 15px;
 }
 
 .next-button:hover {
