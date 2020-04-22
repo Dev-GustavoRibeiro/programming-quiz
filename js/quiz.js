@@ -108,3 +108,7 @@ function SetFinalMessage(message1, message2 = '') {
     $('.final-message-part1').html(message1);
     $('.final-message-part2').html(message2);
 }
+
+$('.restart').click(function() {
+    location.reload();
+});

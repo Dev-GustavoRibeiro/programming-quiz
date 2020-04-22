@@ -196,7 +196,8 @@ button {
     right: 3px;
 }
 
-.next-button {
+.next-button,
+.restart {
     background-color: rgb(124, 82, 202);
     border: 0;
     border-radius: 7px;
@@ -212,11 +213,13 @@ button {
     transition-property: background-color;
 }
 
-.next-button:hover {
+.next-button:hover,
+.restart:hover {
     background-color: rgb(151, 111, 226);
 }
 
-.fa-arrow-alt-circle-right {
+.fa-arrow-alt-circle-right,
+.fa-undo {
     margin-right: 5px;
 }
 
@@ -225,18 +228,22 @@ button {
     top: 0;
 }
 
+.score-text {
+    top: 50px;
+}
+
 .score {
     font-size: 40px;
     font-weight: bold;
     position: relative;
-    top: 75px;
+    top: 30px;
 }
 
 .fa-award {
     display: none;
     height: 60px;
     position: relative;
-    top: 75px;
+    top: 20px;
 }
 
 .final-message-part1,
@@ -244,6 +251,13 @@ button {
     font-size: 20px;
     margin: 0 15px;
     position: relative;
-    top: 100px;
+    top: 50px;
+}
+
+.restart {
+    display: block;
+    position: relative;
+    top: 125px;
+    left: 0;
 }
 /*—————*/
