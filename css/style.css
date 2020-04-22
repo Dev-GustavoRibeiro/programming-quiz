@@ -60,7 +60,8 @@ button {
     width: 800px;
 }
 
-.initial-instructions {
+.initial-instructions,
+.final-screen {
     align-items: center;
     background-color: white;
     border-radius: 4px;
@@ -72,7 +73,8 @@ button {
     z-index: 1;
 }
 
-.instruction {
+.instruction,
+.score-text {
     font-size: 25px;
     position: relative;
     top: 100px;
@@ -216,5 +218,32 @@ button {
 
 .fa-arrow-alt-circle-right {
     margin-right: 5px;
+}
+
+.final-screen {
+    display: none;
+    top: 0;
+}
+
+.score {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 75px;
+}
+
+.fa-award {
+    display: none;
+    height: 60px;
+    position: relative;
+    top: 75px;
+}
+
+.final-message-part1,
+.final-message-part2 {
+    font-size: 20px;
+    margin: 0 15px;
+    position: relative;
+    top: 100px;
 }
 /*—————*/
