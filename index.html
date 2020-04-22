@@ -36,12 +36,12 @@
             <p quiz-item class="division-text">Answer choices</p>
             <div quiz-item class="choice-area">
                 <div class="choice-column1">
-                    <p option ><button class="choice"></button>null</p>
-                    <p option ><button class="choice"></button>'oopsies!'</p>
+                    <p option ><button response="1" class="choice" onclick="ValidateResponse(1)"><i wrong="1" class="fas fa-times"></i><i check="1" class="fas fa-check"></i></button>null</p>
+                    <p option ><button response="2" class="choice" onclick="ValidateResponse(2)"><i wrong="2" class="fas fa-times"></i><i check="2" class="fas fa-check"></i></button>'oopsies!'</p>
                 </div>
                 <div class="choice-column2">
-                    <p option ><button class="choice"></button>undefined</p>
-                    <p option ><button class="choice"></button>0</p>
+                    <p option ><button response="3" class="choice" onclick="ValidateResponse(3)"><i wrong="3" class="fas fa-times"></i><i check="3" class="fas fa-check"></i></button>undefined</p>
+                    <p option ><button response="4" class="choice" onclick="ValidateResponse(4)"><i wrong="4" class="fas fa-times"></i><i check="4" class="fas fa-check"></i></button>0</p>
                 </div>
             </div>
             <button quiz-item class="next-button"><i class="far fa-arrow-alt-circle-right"></i> Next</button>
