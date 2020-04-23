@@ -138,6 +138,7 @@ button {
     color: rgb(29, 0, 110);
     font-size: 18px;
     margin: 16px;
+    overflow: auto;
 }
 
 .quiz-line {
@@ -259,5 +260,118 @@ button {
     position: relative;
     top: 125px;
     left: 0;
+}
+/*—————*/
+
+
+/* =media-queries */
+@media (max-width: 820px) {
+    .content {
+        width: 100%;
+    }
+
+    .quiz {
+        width: 100%;
+    }
+
+    .next-button {
+        left: 575px;
+    }
+}
+
+@media (max-width: 730px) {
+    .notice {
+        font-size: 17px;
+    }
+
+    .next-button {
+        left: 450px;
+    }
+}
+
+@media (max-width: 625px) {
+    .notice {
+        margin: 0 15px;
+    }
+
+    .next-button {
+        left: 350px;
+    }
+}
+
+@media (max-width: 510px) {
+    .quiz {
+        height: 475px;
+    }
+    
+    .instruction {
+        font-size: 20px;
+        margin: 0 15px;
+    }
+
+    .choice-column2 {
+        left: 50px;
+    }
+
+    .next-button {
+        left: 200px;
+    }
+
+    .score-text {
+        top: 25px;
+    }
+
+    .score,
+    .fa-award {
+        top: 0;
+    }
+
+    .final-message-part1,
+    .final-message-part2 {
+        top: 40px;
+    }
+
+    .restart {
+        top: 80px;
+    }
+}
+
+@media (max-width: 395px) {
+    .title-h1 {
+        font-size: 30px;
+    }
+    
+    .quiz-header>p {
+        font-size: 15px;
+    }
+
+    .next-button {
+        left: 100px;
+    }
+
+    .choice-column2 {
+        left: 10px;
+    }
+}
+
+@media (max-width: 345px) {
+    .title-h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .quiz-header>p {
+        font-size: 13px;
+    }
+
+    .choice-column1>p,
+    .choice-column2>p {
+        font-size: 13px;
+    }
+
+    .next-button {
+        margin-top: 10px;
+    }
 }
 /*—————*/
